@@ -4,7 +4,9 @@
 	"version": "0.1.0",
 	"type": "module",
 	"files": [
-		"lib"
+		"lib",
+		"types",
+		"LICENSE"
 	],
 	"scripts": {
 		"prepare": "tsc"
