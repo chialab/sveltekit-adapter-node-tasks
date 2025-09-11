@@ -1,7 +1,18 @@
 {
 	"name": "@chialab/sveltekit-adapter-node-tasks",
-	"license": "MIT",
 	"version": "0.1.0",
+	"description": "The SvelteKit Node adapter, with extra entry-points for tasks.",
+	"keywords": [
+		"adapter",
+		"deploy",
+		"hosting",
+		"node.js",
+		"svelte",
+		"sveltekit",
+		"tasks",
+		"background"
+	],
+	"license": "MIT",
 	"type": "module",
 	"files": [
 		"lib",
