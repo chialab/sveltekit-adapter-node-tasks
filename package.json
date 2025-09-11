@@ -1,0 +1,36 @@
+{
+	"name": "@chialab/sveltekit-adapter-node-tasks",
+	"license": "MIT",
+	"version": "0.1.0",
+	"type": "module",
+	"files": [
+		"lib"
+	],
+	"scripts": {
+		"prepare": "tsc"
+	},
+	"exports": {
+		".": {
+			"types": "./types/index.d.ts",
+			"default": "./lib/index.js"
+		},
+		"./vite": {
+			"types": "./types/vite.d.ts",
+			"default": "./lib/vite.js"
+		}
+	},
+	"peerDependencies": {
+		"@sveltejs/adapter-node": "^5.3.2"
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-node": "^5.3.2",
+		"@sveltejs/kit": "^2.38.1",
+		"@types/node": "^24.3.1",
+		"typescript": "^5.0.0",
+		"vite": "^7.0.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git@github.com:chialab/sveltekit-adapter-node-tasks.git"
+	}
+}
