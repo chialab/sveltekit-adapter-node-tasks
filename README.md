@@ -25,7 +25,7 @@ import { cache } from '$lib/server/cache';
 import { fetchImages } from '$lib/clients';
 import { convertImage } from '$lib/server/convertions';
 
-export cosnt task = () => {
+export const task = () => {
   const images = await fetchImages();
   for (const image of images) {
     cache.remember(image, () => convertImage(image));
