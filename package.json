@@ -1,6 +1,6 @@
 {
 	"name": "@chialab/sveltekit-adapter-node-tasks",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"description": "The SvelteKit Node adapter, with extra entry-points for tasks.",
 	"keywords": [
 		"adapter",
