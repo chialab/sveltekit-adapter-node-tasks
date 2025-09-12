@@ -86,4 +86,4 @@ This adapter inherits all options from the Node adapter. Both plugin and adapter
 
 ## License
 
-**SvelteKit Utils** are released under the [MIT](https://github.com/chialab/sveltekit-adapter-node-tasks/blob/main/LICENSE) license.
+**SvelteKit Adapter for Node Tasks** are released under the [MIT](https://github.com/chialab/sveltekit-adapter-node-tasks/blob/main/LICENSE) license.
