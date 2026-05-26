@@ -65,6 +65,7 @@ export default defineConfig({
 **svelte.config.js**
 ```js
 import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
+import nodeAdapter from '@sveltejs/adapter-node';
 import adapter from '@chialab/sveltekit-adapter-node-tasks';
 
 /** @type {import('@sveltejs/kit').Config} */
@@ -72,7 +73,7 @@ const config = {
 	preprocess: vitePreprocess(),
 
 	kit: {
-		adapter: adapter()
+		adapter: adapter(nodeAdapter())
 	}
 };
 
