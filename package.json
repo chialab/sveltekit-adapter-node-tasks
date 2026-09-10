@@ -1,6 +1,6 @@
 {
 	"name": "@chialab/sveltekit-adapter-node-tasks",
-	"version": "0.2.0",
+	"version": "0.3.0",
 	"description": "The SvelteKit Node adapter, with extra entry-points for tasks.",
 	"keywords": [
 		"adapter",
@@ -33,7 +33,7 @@
 		}
 	},
 	"peerDependencies": {
-		"@sveltejs/adapter-node": "^5.3.2 || ^6.0.0"
+		"@sveltejs/adapter-node": "^5.3.2 || ^6.0.0 || ^7.0.0"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-node": "^5.3.2",

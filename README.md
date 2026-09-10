@@ -11,6 +11,19 @@ In particular, its handling of development and production environments (along wi
 However, SvelteKit is designed primarily for deploying web applications. In more complex projects, it’s often necessary to run background tasks—such as sending emails, generating reports, or processing files.
 This adapter makes it possible to add custom entry points to the build that can be executed as standalone Node scripts, while still reusing the same codebase and configurations as the SvelteKit app. This way, there’s no need to redefine environment variables, and everything remains consistent within the SvelteKit conventions.
 
+## Installation
+
+```
+npm install @chialab/sveltekit-adapter-node-tasks
+```
+
+Pick the version that matches your SvelteKit major:
+
+| SvelteKit | Adapter                                    |
+| --------- | ------------------------------------------ |
+| 2.x       | `@chialab/sveltekit-adapter-node-tasks@~0.2.0` |
+| 3.x       | `@chialab/sveltekit-adapter-node-tasks@~0.3.0` |
+
 ## Usage
 
 This adapter lets you define files named `<something>.task.js` (or .ts) inside the `src` folder. These files are included in the application build and generate separate entry points within the output directory.
