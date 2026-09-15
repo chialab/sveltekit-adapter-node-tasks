@@ -17,13 +17,6 @@ This adapter makes it possible to add custom entry points to the build that can 
 npm install @chialab/sveltekit-adapter-node-tasks
 ```
 
-Pick the version that matches your SvelteKit major:
-
-| SvelteKit | Adapter                                    |
-| --------- | ------------------------------------------ |
-| 2.x       | `@chialab/sveltekit-adapter-node-tasks@~0.2.0` |
-| 3.x       | `@chialab/sveltekit-adapter-node-tasks@~0.3.0` |
-
 ## Usage
 
 This adapter lets you define files named `<something>.task.js` (or .ts) inside the `src` folder. These files are included in the application build and generate separate entry points within the output directory.
